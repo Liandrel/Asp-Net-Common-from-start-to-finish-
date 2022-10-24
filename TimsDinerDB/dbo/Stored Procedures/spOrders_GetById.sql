@@ -1,0 +1,13 @@
+﻿CREATE PROCEDURE [dbo].[spOrders_GetById]
+	@Id  int
+AS
+
+begin
+
+	set nocount on;
+
+	SELECT [Id], [OrderName], [OrderDate], [FoodID], [Quantity], [Total]
+	FROM dbo.[Order]
+	WHERE Id = @Id;
+
+end
