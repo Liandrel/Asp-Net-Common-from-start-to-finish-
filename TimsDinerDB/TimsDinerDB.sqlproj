@@ -74,6 +74,6 @@
     <PostDeploy Include="Scripts\Script.PostDeployment.sql" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="TimsDinerDB.publish.xml" />
+    <RefactorLog Include="TimsDinerDB.refactorlog" />
   </ItemGroup>
 </Project>

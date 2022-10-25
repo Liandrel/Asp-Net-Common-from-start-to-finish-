@@ -11,8 +11,8 @@ begin
 
 	set nocount on;
 
-	INSERT INTO dbo.[Order] (OrderName, OrderDate, FoodID, Quantity, Total)
-	VALUES (@OrderName, @OrderDate, @FoodID, @Quantity, @Total)
+	INSERT INTO dbo.[Order] (OrderName, OrderDate, FoodId, Quantity, Total)
+	VALUES (@OrderName, @OrderDate, @FoodId, @Quantity, @Total)
 
 	SET @Id = SCOPE_IDENTITY();
 
